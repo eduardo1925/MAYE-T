@@ -2,15 +2,18 @@
 <html>
 <head>
 	<meta charset="utf-8"/>
-	<title>Mi primer proyecto</title>
-	<link rel="stylesheet" href="css/lista.css">
+	<title>MayeOficios</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/fontello.css">
+    <link rel="stylesheet" href="../css/lista.css">
 </head>
 <body>
+ <?php include ('menu.html');?>
 	 <div class="lista">
 	 <div class="filtro">
 	 	<div class="filrar">
 	 		<h1 class="titulo">Filtros</h1>
-	 		<h1 class="titulos">Palabra Clave</h1>
 	 		<form action="">
 	 			<input type="text" name="quebuscas" id="quebuscas" placeholder="¿Que buscas?">
 	 			<br>
@@ -54,91 +57,69 @@
 	 
 	 <div class="section">
 	 	<section class="secciones">
-	 	    <H3>. Gasfitero, Electicista</H3>
+	 	    <H3>.Juan Villegas Gordillo</H3>
+	 	    
 	 	    <div class="div">
-	 	    	<img src="imagen/abel.jpg" alt="">
+	 	    <h4> ALBAÑIL</h4>
+				<h5 class="nombre"> Se necesita Gasfitero urgente c/sn experiencia en lince-lima</h5>
 	 	    </div>
-	 	    <div class="div">
-	 	    	<h5 class="nombre"> OSCAR PAUL CONTRERAS</h5>
-	 	    <h5>Jr:Larco Herrera 635</h5>
-	 	    <h5>Magdalena del Mar</h5>
-	 		<h5>Tlf:986754782</h5>
-	 		<h5>email:Oscarpaul@gmail.com</h5>
-	 	    </div>
+
 	 			<section>
-	 			<input type="submit" value="Ver perfil" id="ver">
-	 			<input type="submit" value="Ver portafolio" id="ver">
-	 			<input type="submit" value="Enviar E-mail" id="ver">
+	 			<input type="submit" value="Postular" id="ver">
 	 			<br>
 	 			<br>
 	 			
 	 		</section>
-	 	</section>
-	 	<section class="secciones">
-	 	    <H3>. Gasfitero, Electicista</H3>
+	 		</section>
+	 		
+	 		
+	 		<section class="secciones">
+	 	    <H3>.Nicolas Cruz Soto</H3>
+	 	    
 	 	    <div class="div">
-	 	    	<img src="imagen/abel.jpg" alt="">
-	 	    </div>
-	 	    <div class="div">
-	 	    	<h5 class="nombre"> OSCAR PAUL CONTRERAS</h5>
-	 	    <h5>Jr:Larco Herrera 635</h5>
-	 	    <h5>Magdalena del Mar</h5>
-	 		<h5>Tlf:986754782</h5>
-	 		<h5>email:Oscarpaul@gmail.com</h5>
+	 	    <h4> HERRERO</h4>
+				<h5 class="nombre"> Se necesita Gasfitero urgente c/sn experiencia en lince-lima</h>
 	 	    </div>
 	 			<section>
-	 			<input type="submit" value="Ver perfil" id="ver">
-	 			<input type="submit" value="Ver portafolio" id="ver">
-	 			<input type="submit" value="Enviar E-mail" id="ver">
+	 			<input type="submit" value="Postular" id="ver">
 	 			<br>
 	 			<br>
 	 			
 	 		</section>
-	 	</section>
-	 	<section class="secciones">
-	 	    <H3>. Gasfitero, Electicista</H3>
+	 		</section>
+	 		
+	 		<section class="secciones">
+	 	    <H3>.Herber Garrafa Echeverria</H3>
+	 	    
 	 	    <div class="div">
-	 	    	<img src="imagen/abel.jpg" alt="">
-	 	    </div>
-	 	    <div class="div">
-	 	    	<h5 class="nombre"> OSCAR PAUL CONTRERAS</h5>
-	 	    <h5>Jr:Larco Herrera 635</h5>
-	 	    <h5>Magdalena del Mar</h5>
-	 		<h5>Tlf:986754782</h5>
-	 		<h5>email:Oscarpaul@gmail.com</h5>
+	 	    <h4> GASFITERO</h4>
+				<h5 class="nombre"> Se necesita Gasfitero urgente c/sn experiencia en lince-lima</h>
 	 	    </div>
 	 			<section>
-	 			<input type="submit" value="Ver perfil" id="ver">
-	 			<input type="submit" value="Ver portafolio" id="ver">
-	 			<input type="submit" value="Enviar E-mail" id="ver">
+	 			<input type="submit" value="Postular" id="ver">
 	 			<br>
 	 			<br>
 	 			
 	 		</section>
-	 	</section>
-	 	<section class="secciones">
-	 	    <H3>. Gasfitero, Electicista</H3>
+	 		</section>
+	 		
+	 		<section class="secciones">
+	 	    <H3>.Oscar Paul Contreras</H3>
+	 	    
 	 	    <div class="div">
-	 	    	<img src="imagen/abel.jpg" alt="">
-	 	    </div>
-	 	    <div class="div">
-	 	    	<h5 class="nombre"> OSCAR PAUL CONTRERAS</h5>
-	 	    <h5>Jr:Larco Herrera 635</h5>
-	 	    <h5>Magdalena del Mar</h5>
-	 		<h5>Tlf:986754782</h5>
-	 		<h5>email:Oscarpaul@gmail.com</h5>
+	 	    <h4> CARPINTERO</h4>
+				<h5 class="nombre"> Se necesita Gasfitero urgente c/sn experiencia en lince-lima</h>
 	 	    </div>
 	 			<section>
-	 			<input type="submit" value="Ver perfil" id="ver">
-	 			<input type="submit" value="Ver portafolio" id="ver">
-	 			<input type="submit" value="Enviar E-mail" id="ver">
+	 			<input type="submit" value="Postular" id="ver">
 	 			<br>
 	 			<br>
 	 			
 	 		</section>
-	 	</section>
-	 </div>
+	 		</section>
 	 	
 	 </div>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>	
 </body>
 </html>
