@@ -33,7 +33,7 @@
   					<input type="submit" class="btn registrar " value="Registrar">
   					<br>
   					<br>
-  					<a href="recuperar.php">Olvidé mi contraseña</a>
+  					<a href="vista/recuperar.php">Olvidé mi contraseña</a>
   				</div>
   			</div>
   		</div>

@@ -3,7 +3,7 @@ class Conexion{
 	
 	 public function get_conexion(){
          $user="root";
-        $pass="";
+        $pass="toor";
         $host="localhost";
         $db="tesis";
         
