@@ -72,7 +72,7 @@
                <br>
                <br>
                <h4>Celular:</h4>
-	 		  <input type="number" id="celular" name="celular" placeholder="celular" >
+	 		  <input type="number" id="celular" name="celular" placeholder="Celular" >
                                 
                <br>
                <br>
